@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+    padding: 0px 30px;
+    border-bottom: 1px solid #282a38;
+}
+.active{
+    color: #3974d4;
+    font-weight: 900;
+    text-shadow: 0px 0px 2px #bbd5ff39;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+button{
+    outline: none;
+    border: none;
+    color: white;
+    height: 55px;
+    border-radius: 7px;
+    font-size: 1rem;
+    font-weight: 900;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    font-size: 1.03rem;
+    font-weight: 410;
+    gap: 50px;
+}
+.nav-left a:hover{
+    color: #3974d4;
+    font-weight: 900;
+}
+.logo{
+    left: 0;
+    cursor: pointer;
+    width: 7.5em;
+    height: 1.9em;
+    background-image: url(../images/quotex_logo-white.svg);
+    background-position: center;
+    background-size: cover;
+}
+.nav-right{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.language-container{
+}
+.language{
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-size: 1.07rem;cursor: pointer;
+    height: 55px;
+    width: 100px;
+    border-radius: 7px;
+}
+.language-select{
+    justify-content: center;
+    gap: 0em 1.4em;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    background-color: #494f65;
+    width: 270px;
+    border-radius: 7px;
+    color: #fff;
+    margin-top: 9px;
+    padding: 5px;
+    z-index: 100;
+}
+.language-select div{
+    cursor: pointer;
+    display: flex;
+    font-weight: 500;
+    padding-left: 20px;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 7px;
+    color: #fff;
+}
+.language-select div:hover{
+    background-color: #363b4cd8;
+}
+
+.login-btn{
+    background-color: #444b5d;
+    width: 112px;
+}
+.signup-btn{
+    background-color: #35b972;
+    width: 133px;
+    box-shadow: 1px 1px 9px #68eaa549;
+}
+.signup-btn:hover{
+    background-color: #4dce89;
+}
+.menu{
+    display: none;
+}
+.responsive-menu{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -1px;
+    position: absolute;
+    height: 88.06vh;
+    background-color: #1c1f2d;
+    color: #fff;
+    justify-content: center;
+}
+.responsive-menu a{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.res-links{
+    padding: 0.99em 1.7em;
+    width:42em;
+    height: 21em;
+}
+.res-links a{
+    margin: 0px 0px 42px 0px;
+    justify-content: space-between;
+    width: 100%;
+}
+.res-links a:hover{
+    font-size: 1rem;
+}
+.responsive-menu p{
+    font-size: 0.77rem;
+    color: #52545f;
+}
+.res-language{
+    padding: 0px 25px;
+    margin: 0px 25px;
+    display: flex;
+    align-items: center;
+    background-color: #242939;
+    border-radius: 7px;
+    height: 52px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.globe-en{
+    font-weight: 500;
+    gap: 1em;
+    align-items: center;
+    display: flex;
+}
+.reslanguage-container{
+    width: 56em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.reslanguage-select{
+    justify-content: center;
+    gap: 0em 1.9em;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    background-color: #494f65;
+    width: 93.5%;
+    border-radius: 7px;
+    color: #fff;
+    margin-top: 9px;
+    padding: 5px;
+    top: 0;
+    left: 0;
+    margin-top: -40px;
+    margin-left: 20px;
+}
+.reslanguage-select div{
+    cursor: pointer;
+    display: flex;
+    font-weight: 500;
+    padding-left: 20px;
+    align-items: center;
+    width: 40%;
+    height: 50px;
+    border-radius: 7px;
+    color: #fff;
+}
+.reslanguage-select div:hover{
+    background-color: #363b4cd8;
+}
+
+@media only screen and (max-width:1200px){
+    .navbar{
+        padding: 0px 150px;
+    }
+}
+@media only screen and (max-width:1050px){
+    .navbar{
+        padding: 0px 100px;
+    }
+}
+@media only screen and (max-width:900px){
+    .navbar{
+        padding: 0px 15px;
+        height: 78px;
+    }
+    .language{
+        display: none;
+    }
+    .navlinks{
+        display: none;
+    }
+    .login-btn{
+        font-size: 0.78rem;
+        height: 42px;
+        width: 63px;
+    }
+    .signup-btn{
+        font-size: 0.78rem;
+        height: 42px;
+        width: 71px;
+    }
+    .menu{
+        display: block;
+    }
+}
+    @media only screen and (max-width:770px){
+        .navbar{
+            height: 90px;
+        }
+        .logo{
+            width: 2em;
+            height: 1.9em;
+            background-image: url(../images/quotex_logo-white.svg);
+            background-position: left;
+            background-size: cover;
+        }
+        .login-btn{
+            font-size: 1rem;
+            height: 55px;
+            width: 91px;
+        }
+        .signup-btn{
+            font-size: 1rem;
+            height: 55px;
+            width: 102px;
+    }
+}
+@media only screen and (max-width:500px){
+        .navbar{
+            height: 79px;
+        }
+        .reslanguage-select{
+            width: 89%;
+        }
+        .reslanguage-select div{
+            width: 35%;
+        }
+        .login-btn{
+            font-size: 0.78rem;
+            height: 42px;
+            width: 80px;
+        }
+        .signup-btn{
+            font-size: 0.78rem;
+            height: 42px;
+            width: 88px;
+    }
+}
+

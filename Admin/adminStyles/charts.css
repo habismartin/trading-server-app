@@ -1,0 +1,18 @@
+.admin-chart{
+    flex: 5;
+    -webkit-box-shadow: 3px 4px 18px -6px rgba(0,0,0,0.87);
+    -moz-box-shadow: 3px 4px 18px -6px rgba(0,0,0,0.87);
+    box-shadow: 3px 4px 18px -6px rgba(0,0,0,0.87);
+    background-color: #444b5d;
+    border-radius: 7px;
+    color: gray;
+    padding: 1em;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.admin-chart .admin-title{
+    margin-bottom: 30px;
+}

@@ -1,0 +1,204 @@
+
+
+.tradingnav{
+    width: fit-content;
+}
+.account-settings h6{
+    cursor: pointer;
+    color: #ff6250;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: -1em;
+    margin-bottom: 2em;
+}
+.account-settings form h1{
+    font-size: 1rem;
+}
+.account-settings form{
+    border-bottom: 1px dotted #a2a5ad;
+    gap: 0.5em;
+}
+.account-settings form .account-image{
+    display: flex;
+}
+.account-image, .account-image div {
+    gap: 1em;
+}
+.account-image div input{
+    border-radius: 50px;
+}
+.account-image div{
+    gap: 0.4em;
+    display: flex;
+    flex-direction: column;
+}
+.account-image h2{
+    font-size: 0.9rem;
+}
+.account-image p{
+    font-size: 0.9rem;
+    color: #a2a5ad;
+}
+.account-settings form .account-img{
+    position: relative;
+    width: 5em;
+    height: 5em;
+}
+ .account-image .icon-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    padding: 0.7em;
+    border-radius: 3px;
+    color: #5e616c;
+    background-color: #212634;
+    width: 0.5em;
+    height: 0.5em;
+    top: -4px;
+    right: -4px;
+    transition: .2s ease;
+    cursor: pointer;
+}
+.account-image .icon-img p:hover{
+    color: #016dd38e;
+}
+.account-settings form .account-image .icon-img p{
+    font-size: 1.1rem;
+    position: absolute;
+    cursor: pointer;
+}
+
+.account-settings form .account-image .icon-img input{
+    opacity: 0;
+    width: 0.5em;
+    height: 0.5em;
+}
+.account-image .account-img{
+    width: 7em;
+    height: 7em;
+    display: flex;
+
+}
+.account-image .account-img img{
+    height: 5em;
+    width: 5em;
+}
+
+.account-settings{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 0.7em 2em;
+    gap: 3em;
+    width: 100%;
+}
+.account-settings, .account-settings label{
+    background-color: #212634;
+}
+.account-settings form label{
+    font-size: 0.8rem;
+}
+.account-settings form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.account-settings form button{
+    background-color: #016fd3;
+    margin-bottom: 1.3em;
+    margin-top: 0.8em;
+    height: 3em;
+}
+
+.account-settings input{
+    color: #fff;
+    padding: 0.2em 0.9em;
+    border-radius: 5px;
+    height: 3em;
+    border: 1px solid #434753;
+    background-color: transparent;
+    outline: none;
+    transition: .2s ease;
+}
+.account-settings input:focus,.account-settings input:hover{
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.account-options{
+    gap: 2em;
+    background-color: #2b3040;
+    height: 3.3em;
+    overflow: auto;
+}
+.account-options,.account-options a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 0em 1em;
+}
+.account-options a{
+    display: flex;
+    width: fit-content;
+    font-size: 0.9rem;
+    font-weight: 600;
+    height: 2.4em;
+    transition: .2s ease;
+}
+.account-options a:hover{
+    background-color: rgba(255, 255, 255, 0.067);
+}
+.account-options .active{
+    background-color: rgba(255, 255, 255, 0.067);
+    font-weight: 600;
+    color: #fff;
+}
+
+.card{
+    border-bottom: 1px dotted #a2a5ad;
+}
+.card p{
+    font-size: 0.9rem;
+    color: #525561;
+    margin-bottom: 2em;
+}
+.card h5{
+    font-size: 1rem;
+}
+.card div{
+    justify-content: space-between;
+    display: flex;
+}
+.card button{
+    font-size: 0.8rem;
+    padding: 1em 1.2em;
+    height: 1.5em;
+    background-color: #016fd3;
+}
+
+@media only screen and (max-width: 900px){
+    .account-settings{
+        width: 82%;
+    }
+}
+@media only screen and (max-width:650px){
+    .account-options{
+        gap: 1.3em;
+    }
+    .account-options a{
+        font-size: 0.9rem;
+    }
+    .account-settings form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .card button{
+        padding: 1.3em 1em;
+        margin-bottom: 0.4em;
+        background-color: #016fd3;
+    }
+}

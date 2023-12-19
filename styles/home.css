@@ -1,0 +1,807 @@
+.innovative{
+    display: flex;
+    align-items: center; 
+    gap: 2em;   
+    justify-content: space-between;
+}
+.innovative-img{
+    background-image: url(../images/platform@2x.png);
+    background-position: right;
+    background-size: cover;
+    width: 53%;
+    height: 105vh;
+}
+.innovative-right{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #fff;
+    width: 470px;
+    height: 50vh;
+    font-weight: 600;
+    padding-right: 40px;
+}
+.innovative-right h2{
+    font-size: 2.7rem;
+}
+.innovative-right p{
+    color: #97989b;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.register-btn{
+    background-color: #35b972;
+    width: 234px;
+    box-shadow: 1px 1px 9px #68eaa549;
+}
+.register-btn:hover{
+    background-color: #4dce89;
+}
+.open-demo-btn{  
+    background-color: #ffffff;
+    width: 215px;
+    color: #575c6b;
+}
+.open-demo-btn:hover{  
+    background-color: #444b5d;
+    color: #fff;
+}
+
+
+
+
+
+.gray-icons{
+    display: flex;
+    padding: 2em;
+    align-items: center;
+    justify-content: space-between;
+    height: 4em;
+    margin-bottom: 2.5em;
+}
+.gray-icons div{
+    background-position: center;
+    background-size: cover
+}
+.visa{
+    width: 6em;
+    height: 2em;
+    background-image: url(../images/visa.webp) ;
+}
+.master{
+    width: 6em;
+    height: 4em;
+    background-image: url(../images/mastercard.webp) ;
+}
+.advcash{
+    width: 9.5em;
+    height: 2.7em;
+    background-image: url(../images/advcash.webp);
+}
+.perfect{
+    width: 13em;
+    height: 2.8em;
+    background-image: url(../images/perfectmoney.webp) ;
+}
+
+
+
+
+
+.info-icons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.infos{
+    padding: 2em;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 1150px;
+    background-color: #313446;
+    border-radius: 7px 7px 0px 0px;
+    border-bottom: 1px solid #404251;
+    color: white;
+}
+.infos .img{
+    width: 130px;
+    height: 85px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 1.1em;
+}
+.infos h2{
+    font-size: 1.19rem;
+    font-weight: 900;
+    margin-bottom: 1em;
+}
+.infos p{
+    color: #c2c3c8;
+    font-size: 0.99rem;
+    font-weight: 500;
+}
+.infos div{
+    width: 220px;
+    height: 275px;
+}
+.infos-1 .img{
+    background-image: url(../images/convenient.png);
+}
+.infos-2 .img{
+    background-image: url(../images/integrated.png);
+}
+.infos-3 .img{
+    background-image: url(../images/trading.png);
+}
+.infos-4 .img{
+    background-image: url(../images/perfect.png);
+    width: 177px;
+}
+.button-cover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #313446;
+    width: 1214px;
+    height: 135px;
+    border-radius: 0px 0px 7px 7px;
+    margin-bottom: 3em;
+}
+.button button{
+    gap: 0.6em;
+    width: 320px;
+    height: 72px;
+    display: flex;
+    background-color: #35b972;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 0.9em;
+}
+.button button:hover{
+    background-color: #4dce89;
+}
+button p{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #75ce9e;
+    border-radius: 20px;
+}
+
+
+
+.predict-fixed{
+    padding: 0em 2em;
+}
+.predict-fixed h2{
+    font-weight: 900;
+    margin-bottom: 0.4em;
+    font-size: 2.4em;
+}
+.predict-fixed h5{
+    font-size: 1.45em;
+    font-weight: 500;
+    color: #aaacb1;
+    margin-bottom: 0.4em;
+}
+.predict{
+    display: flex;
+    gap: 3em;
+    margin-bottom: 3em;
+}
+.chart{
+    background-color: #404251;
+    width: 890px;
+    height: 414px;
+
+}
+.chart-buttons{
+    padding: 2.5em 0em;
+    display: flex;
+    flex-wrap: wrap;
+    width: 275px;
+    height: 337px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #313446;
+    border-radius: 7px;
+}
+.predict-logo{
+    background-position: center;
+    background-size: cover;
+    width: 140px;
+    height: 35px;
+    background-image: url(../images/quotex_logo-white.svg);
+}
+.prdict-text{
+    width: 240px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #404251;
+}
+.chart-buttons h4{
+    font-size: 1.29rem;
+    margin-top: 1em;
+}
+.chart-buttons p{
+    display: flex;
+    padding: 0.23em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff61;
+    border-radius: 20px;
+}
+.chart-buttons button{
+    display: flex;
+    width: 244px;
+    height: 63px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.price-up{
+    background-color: #35b972;
+}
+.price-up:hover{
+    background-color: #75ce9e;
+}
+.price-down{
+    background-color: #e26e61;
+}
+.price-down:hover{
+    background-color: #ea897e;
+}
+
+
+
+.steps{
+    padding: 0em 2em;
+    border-bottom: 1px solid #404251;
+}
+.steps h1{
+    font-weight: 900;
+    margin-bottom: 0.2em;
+    font-size: 2.5em;
+}
+.steps h2{
+    font-size: 2em;
+    font-weight: 460;
+    color: #61636c;
+    margin-bottom: 0.4em;
+}
+.steps-links{
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 4em;
+}
+.steps-links div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 245px;
+    text-align: center;
+    padding: 1em 0em;
+    gap: 1.7em;
+}
+.steps-links .steps-img{
+    background-position: center;
+    background-size: cover;
+}
+.steps-sign-up .steps-img{
+    width: 120px;
+    height: 80px;
+    background-image: url(../images/start-trading-1@2x.png);
+}
+.steps-practice .steps-img{
+    width: 120px;
+    height: 80px;
+    background-image: url(../images/start-trading-2@2x.png);
+}
+.steps-deposit .steps-img{
+    width: 130px;
+    height: 80px;
+    background-image: url(../images/start-trading-3@2x.png);
+}
+.steps-links button{
+    color: #2b98fe;
+    background-color: #313446;
+    font-size: 0.87em;
+    font-weight: 500;
+    width: 240px;
+    height: auto;
+    padding: 0.9em 0em;
+}
+.steps-links h4{
+    font-size: 1.4em;
+    font-weight: 900;
+}
+.steps-links p{
+    font-size: 1em;
+    font-weight: 500;
+    color: #bbbcc0;
+}
+
+
+.faq{
+    padding: 2em;
+    border-bottom: 1px solid #404251;
+}
+.faq h1{
+    font-size: 2.5em;
+    font-weight: 900;
+    margin-top: 0.9em;
+    margin-bottom: 0.9em;
+}
+.faq .cover{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
+.questions{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em 2em;
+    justify-content: center;
+    align-items: center;
+}
+.faq .questions-cover{
+    cursor: pointer;
+    background-color: #313446;
+    border-radius: 7px;
+    width: 525px;
+    padding: 1em 2em;
+}
+.questions h2{
+    font-size: 1.5em;
+    font-weight: 800;
+}
+.questions p{
+    font-size: 1em;
+    font-weight: 500;
+    color: #c2c3c8;
+}
+.main-questions{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 1em;
+}
+.main-questions h2{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 1em;
+}
+.show{
+    margin-top: 1em;
+}
+.all-questions{
+    color: #2b98fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #313446;
+    border-radius: 7px;
+    width: 340px;
+    padding: 1.4em 2em;
+    gap: 0.9em;
+    margin: 1.5em 0em;
+}
+
+
+
+.bottom{
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2.5em;
+}
+.bottom h1{
+    font-size: 2.5em;
+    font-weight: 900;
+}
+.bottom .image{
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    height: 400px;
+    background-image: url(../images/about-us-innovation@2x.png);
+}
+.bottom .buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+}
+.bottom button{
+    width: 297px;
+    padding: 2em 0em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1em;
+}
+.real{
+    background-color: #35b972;
+}
+.real:hover{
+    background-color: #4dce89;
+}
+.demo{
+    background-color: #fff;
+    color: #1c1f2d;
+}
+.demo:hover{  
+    background-color: #444b5d;
+    color: #fff;
+}
+
+
+
+
+
+@media only screen and (max-width:1200px){
+    .innovative-img{
+        background-image: url(../images/platform-mobile@2x.png);
+        width: 50%;
+        height: 600px;
+    }
+
+    .gray-icons{
+        padding: 0em 5em;
+    }
+    .info-icons{
+        padding: 0em 5em;
+    }
+    .infos{
+        width: 65%;
+        padding: 2em 10em;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .infos div{
+        width: 220px;
+        height: 275px;
+    }
+
+    .button{
+        width: 65%;
+        padding: 0em 10em;
+    }
+
+    .predict-fixed{
+        padding: 0em 6.4em;
+    }
+    .steps{
+        padding: 0em 6.4em;
+    }
+
+    .faq{
+        padding: 0em 5em;
+    }
+    .faq .questions-cover{
+        width: 355px;
+    }
+}
+@media only screen and (max-width:1050px){
+    .innovative-img{
+        width: 70%;
+        height: 600px;
+    }
+}
+@media only screen and (max-width:950px){
+    .infos{
+        padding: 2em 4em;
+    }
+    .button{
+        padding: 0em 4em;
+    }
+
+    .predict-fixed{
+        padding: 0em 10em;
+    }
+}
+@media only screen and (max-width:900px){
+    .innovative{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .innovative-right{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-right: 0px;
+        gap: 20px;
+        width: 100%;
+    }
+    .innovative-img{
+        width: 70%;
+        height: 500px;
+    }
+    .gray-icons{
+        padding: 0em 2em;
+    }
+    .infos{
+        width: 70%;
+        padding: 2em 2em;
+    }
+    .button{
+        padding: 0em 3.1em;
+    }
+    .predict-fixed{
+        padding: 0em 1em;
+    }
+    .steps{
+        padding: 0em 1em;
+    }
+
+    .faq .questions-cover{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:800px){
+    .innovative-img{
+        width: 80%;
+        height: 400px;
+    }
+    .gray-icons{
+        padding: 0em 1em;
+    }.visa{
+        width: 4em;
+        height: 1.5em;
+        background-image: url(../images/visa.webp) ;
+    }
+    .master{
+        width: 4em;
+        height: 3em;
+        background-image: url(../images/mastercard.webp) ;
+    }
+    .advcash{
+        width: 6em;
+        height: 1.5em;
+        background-image: url(../images/advcash.webp);
+    }
+    .perfect{
+        width: 9em;
+        height: 1.9em;
+        background-image: url(../images/perfectmoney.webp) ;
+    }
+    .info-icons{
+        padding: 0em 2em;
+    }
+    .infos{
+        width: 95%;
+        padding: 2em 3em;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-radius: 7px;
+    }
+    .button{
+        display: none;
+    }
+
+    .predict-fixed{
+        padding: 0em 2em;
+    }
+    .chart-buttons{
+        padding: 2.5em 1em;
+        width: 200px;
+        height: 337px;
+    }
+    .chart-buttons button{
+        width: 90%;
+        height: 55px;
+    }
+
+    .steps{
+        padding: 0em 2em;
+    }
+    .steps-links div{
+        width: 150px;
+        gap: 1em;
+    }
+    .steps-sign-up .steps-img{
+        width: 98px;
+        height: 60px;
+    }
+    .steps-practice .steps-img{
+        width: 98px;
+        height: 60px;
+    }
+    .steps-deposit .steps-img{
+        width: 100px;
+        height: 62px;
+    }
+    .steps-links button{
+        font-size: 0.8em;
+        width: 160px;
+    }
+    .all-questions{
+        width: 250px;
+    }
+    .bottom button{
+        width: 220px;    
+    }
+} 
+@media only screen and (max-width: 550px){
+    .innovative{
+        gap: 0em;   
+    }
+    .innovative-img{
+        width: 100%;
+        height: 380px;
+    }
+    .innovative-right{
+        display: block;
+        padding: 0em 2em;
+    }
+    .innovative-right h2{
+        font-size: 1.2rem;
+        margin-bottom: 3%;
+    }
+    .innovative-right p{
+        font-size: 1rem;
+        margin-bottom: 5%;
+    }
+    .register-btn{
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    .open-demo-btn{  
+        width: 100%;
+    }
+    .info-icons{
+        margin-bottom: 3em;
+    }
+    .infos{
+        width: 95%;
+        padding: 2em 3em;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .infos .img{
+        width: 190px;
+        height: 125px;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 1.1em;
+        border-bottom: none;
+        padding: 0em;
+    }
+    .infos div{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-bottom: 1px solid #404251;
+        padding: 2em 0em;
+    }
+    .infos-4 .img{
+        background-image: url(../images/perfect.png);
+        width: 250px;
+    }
+
+    .predict{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .predict-logo{
+        display: none;
+    }
+    .chart{
+        width: 100%;
+        height: 300px;
+    }
+    .chart-buttons{
+        height: 220px;
+        width: 65%;
+    }
+    .chart-buttons h4{
+        margin-top: 0em;
+    }
+    .predict-fixed h2{
+        font-weight: 900;
+        margin-bottom: 0.6em;
+        font-size: 1.2em;
+    }
+    .predict-fixed h5{
+        font-size: 1em;
+        font-weight: 500;
+        color: #aaacb1;
+        margin-bottom: 0.8em;
+    }
+
+    .steps{
+        padding: 0em 2em;
+    }
+    .steps h1{
+        font-size: 1.2em;
+    }
+    .steps h2{
+        font-size: 1em;
+    }
+    .steps-links{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .steps-links div{
+        width: 300px;
+        gap: 1em;
+    }
+    .steps-sign-up .steps-img{
+        width: 120px;
+        height: 80px;
+    }
+    .steps-practice .steps-img{
+        width: 120px;
+        height: 80px;
+    }
+    .steps-deposit .steps-img{
+        width: 130px;
+        height: 85px;
+    }
+    .steps-links button{
+        font-size: 0.9em;
+        width: 250px;
+    }
+
+    .faq{
+        padding: 0em 2em;
+        border-bottom: none;
+    }
+    .faq h1{
+        font-size: 1.2rem;
+    }
+    .faq h2, .faq p{
+        font-size: 1rem;
+    }
+
+    .bottom{
+        height: 50vh;
+    }
+    .bottom .image{
+        display: none;
+    }
+    .bottom h1{
+        font-size: 1.5rem;
+    }
+    .bottom .buttons{
+        flex-direction: column;
+    }
+    .bottom button{
+        width: 300px;
+        font-size: 0.9em;    
+    }
+} 

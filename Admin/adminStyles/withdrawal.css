@@ -1,0 +1,12 @@
+.admin-withdrawal{
+    display: flex;
+}
+.admin-withdrawal .side-bar{
+    flex: 2;
+}
+.admin-withdrawal .admin-withdrawal-page{
+    flex: 8.1;
+}
+.admin-withdrawal-body{
+    padding: 2em;
+}

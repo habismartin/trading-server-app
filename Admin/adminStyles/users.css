@@ -1,0 +1,12 @@
+.admin-users{
+    display: flex;
+}
+.admin-users .side-bar{
+    flex: 2;
+}
+.admin-users .admin-list{
+    flex: 8.1;
+}
+.users-table{
+    padding: 2em;
+}

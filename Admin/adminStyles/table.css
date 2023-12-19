@@ -1,0 +1,59 @@
+.admin-deposit-card{
+    background-color: #51596c;
+    color: #fff;
+}
+.table-body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.deposit-loading{
+    font-size: 1.1rem;
+    font-weight: 300;
+    padding: 0.6em 0.9em;
+}
+.admin-table .tableCell{
+    background-color: #353a4d;
+    font-size: 0.8rem;
+    font-weight: 350;
+    color: #fff;
+}
+.admin-table button{
+    background-color: #51596c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px;
+    width: 100%;
+}
+.admin-table button img{
+    height: 35px;
+}
+.admin-table .status{
+    padding: 5px;
+    border-radius: 5px;
+}
+.admin-table .Pending, .admin-table .pending{
+    color: goldenrod;
+    background-color: rgba(255, 255, 0, 0.19);
+}
+.admin-table .Approved,.admin-table .approved, .admin-table .Sent, .admin-table .sent, .admin-table .verified, .admin-table .Verified{
+    color: rgb(2, 211, 2);
+    background-color: rgba(0, 128, 0, 0.133);
+}
+.Page{
+    width: 100%;
+    background-color: #51596c;
+}
+.pagination, .page-item{
+    display: flex;
+}
+.page-item button{
+    font-size: 0.9em;
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 35px;
+    height: 28px;
+}

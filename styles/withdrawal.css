@@ -1,0 +1,132 @@
+.trade-withdrawal{
+    display: flex;
+    flex-direction: column;
+}
+.toast-message-withdrawal{
+    background-color: rgb(23, 255, 23);
+    box-shadow: 1px 0px 77px -2px rgba(254, 255, 254, 0.202);
+    -webkit-box-shadow: 1px 0px 77px -2px rgba(200, 248, 200, 0.324);
+    -moz-box-shadow: 1px 0px 77px -2px rgba(154, 243, 154, 0.303);
+    color: #fff;
+}
+.withdrawal-wrapper{
+    display: flex;
+}
+.withdrawal-container{
+    padding: 0em 1em;
+    border-radius: 7px;
+    background-color: #252936;
+    width: 100%;
+}
+.withdrawal-container .withdrawal-body{
+    display: flex;
+}
+.withdrawal-container .withdrawal-body h1{
+    font-size: 1rem;
+    margin-bottom: 1em;
+}
+.withdrawal-body{
+    padding: 1em 0em;
+    border-bottom: 1px dotted gray;
+    margin-bottom: 2em;
+}
+.withdrawal-body .withdrawal-body-left{
+    flex-direction: column;
+    display: flex;
+    flex: 3;
+    border-right: 1px dotted gray;
+    padding: 1em;
+}
+.withdrawal-body .withdrawal-body-right{
+    flex-direction: column;
+    flex: 6;
+    display: flex;
+    padding: 1em;
+}
+.withdrawal-body .withdrawal-body-right form{
+    display: flex;
+    flex-direction: column;
+    padding: 0em 1em;
+}
+.withdrawal-body .withdrawal-body-right label{
+    background-color: transparent;
+}
+.withdrawal-body .withdrawal-body-right input{
+    border: 1px solid grey;
+    outline: none;
+    padding: 0.6em;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 1.6em;
+    height: 2.3em;
+    width: 20em;
+}
+.withdrawal-body .withdrawal-body-right input:hover,.withdrawal-body .withdrawal-body-right input:focus{
+    border: 1px solid rgb(255, 255, 255);
+}
+.withdrawal-body .withdrawal-body-right button{
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 183, 0);
+    gap: 0.3em;
+    font-size: 1rem;
+    width: 12em;
+    height: 2.9em;
+    font-weight: 600;
+}
+.withdrawal-body .withdrawal-body-right button:hover{
+    background-color: rgb(44, 189, 44);
+    -webkit-box-shadow: 2px 4px 12px -1px rgba(255, 255, 255, 0.179);
+    -moz-box-shadow: 2px 4px 12px -1px rgba(255, 255, 255, 0.179);
+    box-shadow: 2px 4px 12px -1px rgba(255, 255, 255, 0.179);
+}
+.withdrawal-body .withdrawal-body-right button .withdraw-icon{
+    background-color: rgba(255, 255, 255, 0.301);
+    color: #fff;
+    border-radius: 50px;
+    font-size: 1rem;
+    padding: 0.2em;
+}
+.withdrawal-balance{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.withdrawal-balance p{
+    font-size: 0.9rem;
+    color: gray;
+}
+.withdrawal-balance h4{
+    font-size: 1.21rem;
+    font-weight: 800;
+}
+.withdrawal-balance div{ 
+    border-bottom: 1px solid rgba(128, 128, 128, 0.461);
+    padding: 0.6em 0em;
+}
+.withdrawal-balance .no-border{ 
+    border-bottom: none;
+}
+
+@media only screen and (max-width:1050px){
+    .withdrawal-container{
+        width: 80%;
+    }
+}
+@media only screen and (max-width:650px){
+    .withdrawal-container{
+        width: 90%;
+    }
+    .withdrawal-body{
+        display: flex;
+        flex-direction: column;
+    }
+    .withdrawal-body .withdrawal-body-left{
+        border-right: 1px none;
+        border-bottom: 1px dotted gray;
+        padding: 0em;
+    }
+
+}

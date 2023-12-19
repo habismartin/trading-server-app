@@ -1,0 +1,59 @@
+.adminSideNav{
+    min-height: 92.8vh;
+    background-color: #444b5d;
+    padding: 1.5em;
+    border-radius: 0px 7px 7px 0px;
+    flex: 1;
+}
+hr{
+    height: 0;
+    border: 0.5px solid rgba(255, 255, 255, 0.275);
+    margin: 1.2em 0em;
+}
+.adminSideNav h5{
+    color: #8d8f94;
+    font-size: 0.7rem;
+    margin: 1em 0em;
+}
+.adminSideNav .links{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9em;
+}
+.adminSideNav .links .active{
+    background-color: rgba(255, 255, 255, 0.102);
+    color: #ffff;
+    font-weight: 500;
+}
+.adminSideNav .links a{
+    display: flex;
+    height: 3em;
+    align-items: center;
+    border-radius: 7px;
+    gap: 0.7em;
+    padding-left: 0.8em;
+    transition: .2s ease;
+}
+.adminSideNav .links a:hover{
+    color: #ffff;
+    background-color: rgba(255, 255, 255, 0.102);
+}
+.adminSideNav .links a p:hover{
+    color: #ffff;
+}
+.themes{
+    display: flex;
+    gap: 1em;
+}
+.themes div{
+    width: 20px;
+    height: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.themes .dark{
+    background-color: #212329;
+}
+.themes .light{
+    background-color: #ffff;
+}

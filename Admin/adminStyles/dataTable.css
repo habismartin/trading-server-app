@@ -1,0 +1,43 @@
+.data-table{
+    height: 550px;
+    padding: 1em;
+}
+/* .data-grid div{
+    color: #fff;
+}
+.MuiDataGrid-cellCheckbox{
+    border: #fff;
+} */
+.custom-text-color{
+    color: #fff;
+}
+.cell-width-status{
+    border-radius: 5px;
+    padding: 0.3em 0.5em;
+}
+.verified{
+    background-color: rgba(3, 255, 16, 0.172);
+    color: rgb(0, 255, 0);
+}
+.pending{
+    background-color: rgba(255, 251, 0, 0.181);
+    color: rgb(246, 255, 0);
+}
+.cell-action{
+    display: flex;
+    align-items: center;
+    gap: 0.8em;
+}
+.cell-action div{
+    padding: 0.3em 0.5em;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cell-action .edit-btn{
+    background-color: rgb(0, 123, 255);
+}
+.cell-action .delete-btn{
+    background-color: rgb(254, 18, 18);
+}
+

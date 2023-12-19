@@ -1,0 +1,9 @@
+.switch .lives{
+    border: 1px solid white;
+    background-color: transparent;
+}
+.switch .demos{
+    background-color: #2b62ba;
+    border: none;
+    color: #fff;
+}

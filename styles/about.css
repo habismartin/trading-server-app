@@ -1,0 +1,517 @@
+.about-us-flag{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 1em;
+    align-items: center;
+    border-bottom: 1px solid #282a38;
+}
+.about-us-left{
+    width: 60%;
+}
+.about-us-left h1{
+    font-size: 3rem;
+    margin-bottom: 1.4em;
+}
+.about-us-left h3{
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+}
+.about-us-left p{
+    font-size: 1.23rem;
+    color: #bbbcc0;
+    font-weight: 600;
+}
+.about-us-right{
+    background-image: url(../images/about-us@2x.png);
+    width: 350px;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+}
+
+.fulfill{
+    padding: 1em 0em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #282a38;
+}
+.fulfill-img{
+    background-image: url(../images/about-us-desires@2x-2.png);
+    width: 550px;
+    height: 550px;
+    background-position: right;
+    background-size: cover;
+}
+.fulfill-text{
+    width: 50%;
+}
+.fulfill-text h1{
+    font-size: 2.5rem;
+    margin-bottom: 1.4em;
+}
+.fulfill-text p{
+    font-size: 1rem;
+    color: #bbbcc0;
+    font-weight: 500;
+}
+
+.modern{
+    padding: 0em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #282a38;
+}
+.modern h1{
+    width: 570px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin: 2em 0em;
+}
+.modern-boxes{
+    display: flex;
+    gap: 1.5em;
+    margin-bottom: 4em;
+}
+.modern-boxes div{
+    width: 240px;
+    height: 260px;
+    background-color: #252a3bc3;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    color: #bbbcc0;
+    font-weight: 580;
+    font-size: 1rem;
+    padding: 0em 1.4em;
+}
+
+.how{
+    padding: 0em 2em;
+    border-bottom: 1px solid #282a38;
+}
+.how-top h1{
+    margin: 1em 0em 0.5em 0em;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.how-top h4{
+    margin-bottom: 1.7em;
+    font-size: 1.9rem;
+    font-weight: 500;
+    color: #61636c;
+}
+.how-boxes{
+    margin-bottom: 5em;
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+.how-boxes .img{
+    width: 180px;
+    height: 125px;
+    background-color: #252939;
+    border-radius: 7px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.how-boxes h2{
+    margin: 1em 0em;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.how-boxes p{
+    font-size: 1rem;
+    color: #b1b2b6;
+    font-weight: 500;
+}
+.how-boxes img{
+    width: 130px;
+    height: 90px;
+}
+.how-boxes .how-boxes1,.how-boxes2,.how-boxes3,.how-boxes4{
+    width: 200px;
+    height: 250px;
+}
+
+.quote{
+    display: flex;
+    background-image: url(../images/about-us-problem@2x.png);
+    width: 100%;
+    height: 450px;
+    background-color: #252939;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+.quote-cover{
+    width: 900px;
+    gap: 5em;
+    display: flex;
+    margin-top: 3em;
+}
+.quote p{
+    font-size: 1.27rem;
+    font-weight: 450;
+    color: #b1b2b6;
+}
+.quote-mark{
+    width: 300px;
+    height: 300px;
+}
+.quote-mark img{
+    width: 120px;
+    height: 85px;
+}
+
+.doubts{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5em;
+}
+.doubts-text{
+    width: 540px;
+}
+.doubts-text h1{
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+}
+.doubts-text p{
+    font-size: 1rem;
+    color: #b1b2b6;
+    margin-bottom: 2em;
+}
+.about-demo{
+    width: 350px;
+    background-color: #fff;
+    height: 70px;
+    color: #3e4355;
+}
+.about-demo:hover{
+    background-color: #444b5d;
+    color: #fff;
+}
+.doubts-img{
+    background-image: url(../images/about-us-demo@2x.png);
+    width: 400px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.doubts-img p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    width: 250px;
+    margin-top: 1.7em;
+    margin-left: 4em;
+}
+
+.innovation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/about-us-innovation@2x.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.innovation h1{
+    font-size: 2.44rem;
+    text-align: center;
+    font-weight: 900;
+    margin: 2em 0em 12em 0em;
+}
+.innovation .innovation-btns{
+    display: flex;
+    gap: 1.5em;
+}
+.innovation .innovation-btns button{
+    width: 300px;
+    height: 70px;
+    margin-bottom: 5em;
+}
+.innovation-btns .about-open{
+    background-color: #35b972;
+    width: 234px;
+    box-shadow: 1px 1px 9px #68eaa549;
+}
+.innovation-btns .about-open:hover{
+    background-color: #4dce89;
+}
+
+
+@media only screen and (max-width:1200px){
+    .modern h1{
+        margin: 1em 0em;
+    }
+    .modern-boxes div{
+        width: 21%;
+        height: 250px;
+        padding: 2em 1.4em;
+    }
+
+    .how-top h1{
+        margin: 0.4em 0em 0.2em 0em;
+    }
+}
+@media only screen and (max-width:1050px){
+    .doubts-text{
+        width: 520px;
+    }
+}
+@media only screen and (max-width:900px){
+    .modern{
+        padding: 0em 1em;
+    }
+    .modern h1{
+        display: flex;
+        align-self: left;
+        width: 100%;
+    }
+    .modern-boxes{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.4em;
+    }
+    .modern-boxes div{
+        font-size: 0.9rem;
+        width: 45%;
+        height: 120px;
+        padding: 1em 0.7em;
+    }
+
+    .how{
+        padding: 0em 1em;
+    }
+    .how-top h1{
+        margin: 0.2em 0em 0.2em 0em;
+    }
+    .how-boxes{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1em;
+    }
+    .how-boxes .img{
+        width: 100%;
+        height: 125px;
+    }
+    .how-boxes h2{
+        margin: 0.4em 0em;
+    }
+    .how-boxes img{
+        width: 90px;
+        height: 60px;
+    }
+    .how-boxes .how-boxes1,.how-boxes2,.how-boxes3,.how-boxes4{
+        width: 40%;
+        height: 210px;
+    }
+
+    .quote-cover{
+        padding: 0em 2em;
+        width: 800px;
+        gap: 4em;
+    }
+    .quote p{
+        font-size: 1rem;
+    }
+    .quote-mark{
+        width: 240px;
+        height: 240px;
+    }
+    .quote-mark img{
+        width: 100px;
+        height: 70px;
+    }
+
+    .doubts{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .doubts-text h1{
+        margin-bottom: 0.2em;
+    }
+    .doubts-text p{
+        font-size: 0.9rem;
+        margin-bottom: 1em;
+    }
+    .about-demo{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:770px){
+    .about-us-left{
+        width: 100%;
+    }
+    .about-us-flag{
+        flex-direction: column-reverse;
+        border-bottom: none;
+        margin-bottom: -8em;
+    }
+    .about-us-left h1{
+        font-size: 1.2rem;
+        font-weight: 900;
+        margin-bottom: 1em;
+    }
+    .about-us-left h3{
+        font-size: 1rem;
+        font-weight: 900;
+        margin-bottom: 1em;
+    }
+    .about-us-left p{
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin-bottom: 1em;
+    }
+    .doubts{
+        flex-direction: column-reverse;
+    }
+
+    .fulfill{
+        flex-direction: column;
+    }
+    .fulfill-text{
+        width: 92%;
+    }
+    .fulfill-text h1{
+        margin-bottom: 0.5em;
+    }
+}
+@media only screen and (max-width:500px){
+    .fulfill-text h1{
+        font-size: 1.3rem;
+        font-weight: 900;
+    }
+    .fulfill-text p{
+        font-size: 0.9rem;
+    }
+
+    .modern h1{
+        font-size: 1.28rem;
+    }
+    .modern-boxes{
+        justify-content: center;
+    }
+    .modern-boxes div{
+        width: 40%;
+        height: 220px;
+        padding: 2em 1em;
+    }
+
+    .how-top h1{
+        margin: 0.4em 0em 0.2em 0em;
+        font-size: 1.3rem;
+    }
+    .how-top h4{
+        margin: 0.2em 0em 0.2em 0em;
+        font-size: 1.1rem;
+        font-weight: 800;
+    }
+    .how-boxes h2{
+        font-size: 1rem;
+    }
+    .how-boxes p{
+        font-size: 0.8rem;
+        color: #b1b2b6;
+        font-weight: 500;
+    }
+
+    .quote-cover{
+        flex-direction: column;
+        margin-top: 1em;
+        gap: 2em;
+        align-items: center;
+    }
+    .quote p{
+        font-size: 0.92rem;
+    }
+    .quote-mark{
+        width: 110px;
+        height: 80px;
+    }
+    .quote-mark img{
+        width: 110px;
+        height: 80px;
+    }
+
+    .doubts{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5em;
+    }
+    .doubts-text{
+        width: 100%;
+    }
+    .doubts-text h1{
+        font-weight: 900;
+        font-size: 1.2rem;
+        margin-bottom: 0.5em;
+    }
+    .doubts-text p{
+        font-size: 0.9rem;
+        margin-bottom: 1em;
+    }
+    .about-demo{
+        width: 100%;
+        height: 60px;
+        margin-bottom: 0em;
+    }
+    .doubts-img{
+        width: 300px;
+        height: 370px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .doubts-img p{
+        font-size: 1.27rem;
+        margin-top: 1em;
+        margin-left: 1.6em;
+    }
+
+    .innovation{
+        flex-direction: column;
+    }
+    .innovation h1{
+        font-size: 1.3rem;
+        margin: 2em 0em 1em 0em;
+    }
+    .innovation .innovation-btns{
+        flex-direction: column;
+        gap: 0em;
+    }
+    .innovation .innovation-btns button{
+        width: 250px;
+        height: 50px;
+        margin-bottom: 0.7em;
+    }
+    .innovation .innovation-btns{
+        margin-bottom: 4em;
+    }
+}
+@media only screen and (max-width:350px){
+    .modern-boxes div{
+        width: 90%;
+        height: 150px;
+        padding: 2em 1em;
+    }
+}
+
+

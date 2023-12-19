@@ -1,0 +1,56 @@
+
+.adminNav{
+    padding: 0em 1em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.275);
+}
+.adminNav, .adminNav .wrapper, .adminNav div, .adminNav .right-items{
+    display: flex;
+    align-items: center;
+}
+.right-items{
+    gap: 1em;
+    font-size: 1.1rem;
+}
+.adminNav .wrapper{
+    height: 70px;
+    width: 100%;
+    justify-content: space-between;
+}
+.adminNav .wrapper .search{
+    border: 1px solid rgba(255, 255, 255, 0.275);
+    border-radius: 6px;
+    padding: 0.3em 0.6em;
+}
+.adminNav .wrapper .search input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    padding: 0.5em 1em;
+    width: 14em;
+}
+.adminNav .right-items .img img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+.adminNav .right-items .notfication ,.chat{
+    position: relative;
+}
+.adminNav .right-items .num{
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    border-radius: 50%;
+    font-size: 0.6rem;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+}
+.admin-language{
+    gap: 0.2em;
+}

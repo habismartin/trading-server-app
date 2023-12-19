@@ -1,0 +1,93 @@
+
+.faq-main{
+    padding: 0em 5em;
+}
+.question-boxes h1{
+    font-size: 3rem;
+    margin: 1em 0em;
+    font-weight: 900;
+}
+.qboxes{
+    overflow: auto;
+    display: flex;
+    gap: 1.5em;
+    margin-bottom: 3em;
+}
+.qboxes .qbox,.first-qbox{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 113px;
+    border-radius: 7px;
+    background-color: #353a4d;
+    justify-content: center;
+    padding: 0em 1em;
+    gap: 0.94em;
+}
+.first-qbox{
+    background-color: #2f80ed;
+}
+.qboxes h2{
+    font-size: 1.03rem;
+    font-weight: 900;
+    color: #c3c4ca ;
+}
+.qboxes p{
+    color: #c3c4ca ;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.faq-questions h1{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    gap: 0.5em;
+    margin-bottom: 1em;
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+    color: #d2d2d5;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.answer{
+    color: #cecfd2;
+    font-size: 0.98rem;
+    font-weight: 450;
+    margin-top: 1.5em;
+    transition: .3s ease;
+}
+.icon{
+    transition: .3s ease;
+}
+.expanded{
+    transform: rotate(3.142rad);
+}
+.faq-item{
+    padding: 0.8em;
+    border-radius: 7px;
+}
+.faq-style{
+    background-color: #292d3c;
+    padding: 0.8em;
+    border-radius: 7px;
+    margin-bottom: 1.5em;
+}
+
+.general-questions, .financial-questions, .verification{
+    margin-bottom: 3.7em;
+}
+
+@media only screen and (max-width:500px){
+    .faq-main{
+        padding: 0em 1.3em;
+    }
+    .question-boxes h1{
+        font-size: 1.3rem;
+        font-weight: 900;
+    }
+}

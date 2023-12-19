@@ -1,0 +1,29 @@
+.admin{
+    display: flex;
+}
+.home-component{
+    flex: 5;
+}
+.home-component .widgets, .home-component .charts{
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+}
+.home-component .charts{
+    padding: 0.7em 1em;
+}
+.not-admin{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.not-admin h1{
+    color: red;
+}
+.not-admin-img img{
+    height: 350px;
+}

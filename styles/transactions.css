@@ -1,0 +1,24 @@
+.transactions-wrapper{
+    width: 100%;
+}
+.padding{
+    padding: 2em;
+}
+.transactions-body-wrapper{
+    width: 100%;
+    display: flex;
+}
+.transactions-body{
+    width: 100%;
+}
+
+/* trades */
+.trades-wrapper{
+    width: 100%;
+}
+.trades-body-wrapper{
+    display: flex;
+}
+.trades-body{
+    width: 100%;
+}

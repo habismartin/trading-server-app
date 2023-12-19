@@ -1,0 +1,25 @@
+.list-container{
+    display: flex;
+}
+.list-container .padding{
+    padding: 1em;
+}
+.list-container .side-bar{
+    flex: 2;
+}
+.list-container .list{
+    flex: 8.1;
+}
+.list-wrapper{
+    -webkit-box-shadow: 3px 4px 18px -6px rgba(0,0,0,0.87);
+    -moz-box-shadow: 3px 4px 18px -6px rgba(0,0,0,0.87);
+    box-shadow: 3px 4px 18px -6px rgba(0,0,0,0.87);
+    background-color: #444b5d;
+    padding: 1em;
+    border-radius: 7px;
+}
+.list-container .list-title{
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 15px;
+}

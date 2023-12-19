@@ -1,0 +1,208 @@
+.tradingview-widget-container{
+    display: flex;
+}
+.switch-trade-option{
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    padding: 0.3em 0.5em;
+    background-color: rgba(255, 255, 255, 0.176);
+    border-radius: 5px;
+    /* margin-top: 1em; */
+    margin-right: 1em;
+}
+.trade-btn{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0em 0.5em;
+    font-weight: 800;
+    height: 3em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+.place-trades .over, .place-trades .even{
+    background-color: #0eaf59;
+}
+.place-trades .under, .place-trades .odd{
+    background-color: #ff6250;
+}
+.place-trades .over:hover, .place-trades .even:hover{
+    background-color: #0adb6c;
+    box-shadow: 1px 1px 10px 1px #95fbc52d;
+}
+.place-trades .under:hover, .place-trades .odd:hover{
+    background-color: #ec3d2a;
+    box-shadow: 1px 1px 10px 1px#f89b9148;
+}
+.trade-btn .icon{
+    padding: 0.3em;
+    font-weight: 800;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.158);
+}
+.place-trades{
+    position: relative;
+    background-color: #353a4d;
+    width: 14em;
+    border-radius: 7px;
+    padding: 0.7em;
+    margin: 0em 1em 0em 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.place-trades .buttons{
+    width: 100%;
+    margin-top: 2em;
+}
+.place-trades form {
+    width: 100%;
+    margin: 0em 1em 0em 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+.place-trades form h1{
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+}
+.place-trades form div{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 95%;
+}
+.place-trades form label{
+    left: 0;
+    z-index: 1;
+    padding: 0em 0.2em;
+    background-color: #353a4d;
+    font-size: 0.845rem
+}
+.place-trades form p{
+    gap: 0.1em;
+    display: flex;
+    font-size: 0.8rem;
+}
+.place-trades form h6{
+    font-size: 0.88rem;
+    font-weight: 700;
+}
+.place-trades form input{
+    margin-top: -0.64em;
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid rgb(178, 176, 176);
+    padding: 0.3em;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 3em;
+    color: #fff;
+}
+.place-trades form input:focus,.place-trades form input:hover{
+    border: 1px solid rgb(255, 255, 255);
+}
+.place-trades form .inputs-trade-wrapper,.place-trades form .trade-btns-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+}
+.check{
+    position: relative;
+    height: 3em;
+    width: 100%;
+}
+.tradingNav{
+    z-index: 100;
+    width: 100%;
+    position: absolute;
+}
+.trading-section{
+    display: flex;
+}
+.tradingnav{
+    width: 6em;
+    height: 82vh;
+}
+.widget{
+    display: flex;
+    width: 100%;
+}
+.place-trades form .payout-text-mb{
+    display: none;
+}
+
+@media only screen and (max-width:1050px){
+
+    .tradingview-widget-container{
+        flex-direction: column;
+    }
+    .place-trades form p{
+        flex-direction: column;
+    }
+    .place-trades{
+        width: 100%;
+        padding: 0em;
+        margin: 0em 0em 0em 0em;
+        padding: 1em 0em;
+        padding-bottom: 2em;
+        display: flex;
+    }
+    .place-trades form .inputs-trade-wrapper{
+        gap: 2em;
+        flex-direction: row;
+    }
+    .place-trades form .trade-btns-wrapper{
+        gap: 1.5em;
+        display: flex;
+        flex-direction: row;
+    }
+}
+@media only screen and (max-width:650px){
+    .place-trades form h1{
+        font-size: 1rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 1em;
+        margin-top: 0.2em;
+    }
+    .place-trades form input{
+        height: 2.5em;
+    }
+    .place-trades form label{
+        background-color: #1c1f2d;
+    }    
+    .trade-btn{
+        height: 2.5em;
+    }
+    .place-trades{
+        background-color: transparent;
+        padding: 0em 0em;
+        margin-bottom: 3.3em;
+    }
+    .place-trades form .inputs-trade-wrapper{
+        gap: 1.4em;
+        width: 90%;
+    }
+    .place-trades form p{
+        flex-direction: row;
+    }
+    .place-trades form .payout-text-mb{
+        display: block;
+        display: flex;
+        flex-direction: row;
+    }
+    .place-trades form .payout-text-dt{
+        display: none;
+    }
+    .place-trades form .trade-btns-wrapper{
+        gap: 1em;
+    }
+}

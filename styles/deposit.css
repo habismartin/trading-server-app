@@ -1,0 +1,75 @@
+.tradingnav-deposit{
+    display: flex;
+    width: 100%;
+}
+.payment-methods-wrapper{
+    display: flex;
+    width: 85%;
+    flex-direction: column;
+    padding: 1.5em;
+    background-color: #252936;
+    border-radius: 7px;
+}
+.payment-methods {
+    display: flex;
+    flex-direction: column;
+}
+.payment-methods .methods{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    margin-bottom: 2em;
+    border-bottom: 1px dotted rgb(162, 162, 162);
+}
+.payment-methods .methods h1{
+    font-size: 1.2rem;
+}
+.payment-methods-card{
+    height: 1.3em;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 7px;
+    color: #000;
+    gap: 0.5em;
+    transition: .12s ease;
+    cursor: pointer;
+}
+.payment-methods-card:hover{
+    background-color: #3f4358;
+    color: #fff;
+}
+.payment-methods-card img{
+    height: 1.9em;
+}
+
+@media only screen and (max-width:1050px){
+    .payment-methods-wrapper{
+        width: 80%;
+    }
+}
+@media only screen and (max-width:600px){
+    .tradingnav-deposit{
+        display: flex;
+        flex-direction: column;
+    }
+    .payment-methods-wrapper{
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+        padding: 1.5em;
+        background-color: #252936;
+        border-radius: 7px;
+    }
+    .payment-methods-wrapper{
+        padding: 1em;
+    }
+    .payment-methods-card{
+        height: 1.2em;
+        width: 90%;
+    }
+}
